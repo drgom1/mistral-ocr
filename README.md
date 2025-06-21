@@ -10,12 +10,17 @@ This is a desktop application for extracting text from documents using the Mistr
 
 ## Installation
 
-1. Create a virtual environment (recommended):
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/drgom1/mistral-ocr
+   cd mistral-ocr
+   ```
+2. Create a virtual environment (recommended):
    ```bash
    python -m venv venv
    source venv/bin/activate  # on Windows use `venv\Scripts\activate`
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
